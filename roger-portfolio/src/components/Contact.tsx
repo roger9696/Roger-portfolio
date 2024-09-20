@@ -22,10 +22,14 @@ export default function Contact() {
     });
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     // Handle form submission (e.g., send data to an API)
-    console.log(formData);
+    const response = await fetch("/api/send-email", {
+      method: "POST",
+      body: JSON.stringify(formData),
+    });
+
     // Reset form
     setFormData({ name: "", email: "", message: "" });
   };
