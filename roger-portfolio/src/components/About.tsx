@@ -84,11 +84,11 @@ export default function About() {
             <li>Version Control: Git, GitHub</li>
           </ul>
 
-          <h2 className="text-2xl font-semibold mb-4">Certifications</h2>
+          {/* <h2 className="text-2xl font-semibold mb-4">Certifications</h2>
           <ul className="list-disc list-inside mb-6">
             <li>AWS Certified Developer - Associate</li>
             <li>SOLIDWORKS Associate (CSWA)</li>
-          </ul>
+          </ul> */}
 
           <h2 className="text-2xl font-semibold mb-4">Interests & Hobbies</h2>
           <p className="text-gray-700">

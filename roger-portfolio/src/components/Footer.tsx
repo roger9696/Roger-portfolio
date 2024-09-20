@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white p-4 mt-8">
       <div className="container mx-auto text-center">
-        <p>&copy; 2023 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Roger Naah Napuo. All rights reserved.</p>
       </div>
     </footer>
   );

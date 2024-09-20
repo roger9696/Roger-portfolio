@@ -5,6 +5,7 @@ import { useState } from "react";
 import React from "react";
 import profile from "/public/images/profile.png";
 import Image from "next/image";
+import { Github, Facebook, Linkedin, Twitter } from "lucide-react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -116,7 +117,7 @@ export default function Contact() {
             alt="Desert background"
             width={400}
             height={400}
-            className="w-24 h-24"
+            className="w-24 h-24 border-black border-2 rounded-xl"
           />
           <h2 className="text-2xl font-semibold mb-4">Contact Information</h2>
           <p className="mb-2">Email: rogernapuo1999@gmail.com</p>
@@ -125,17 +126,19 @@ export default function Contact() {
           <ul className="space-y-2">
             <li>
               <a
-                href="https://linkedin.com/in/yourusername"
-                className="text-blue-500 hover:text-blue-700"
+                href="https://linkedin.com/in/rogernaahnapuo"
+                className="flex gap-3 text-blue-500 hover:text-blue-700"
               >
+                <Linkedin className="w-6 h-6" />
                 LinkedIn
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/yourusername"
-                className="text-blue-500 hover:text-blue-700"
+                href="https://github.com/roger9696"
+                className="flex gap-3 text-blue-500 hover:text-blue-700"
               >
+                <Github className="w-6 h-6" />
                 GitHub
               </a>
             </li>

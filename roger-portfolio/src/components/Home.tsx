@@ -19,6 +19,7 @@ export default function Home() {
           alt="ROGER NAAH NAPUO"
           width={200}
           height={200}
+          priority={true}
           className="rounded-xl mx-auto  mb-4 border1"
         />
         <h1 className="text-4xl font-bold mb-2">Roger Naah Napuo</h1>
